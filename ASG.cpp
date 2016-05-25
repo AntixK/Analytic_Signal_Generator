@@ -77,7 +77,7 @@ bool ASG::copy_to_file()
 		file <<"\n"<< A_coeff[i];
 
 	file << "\n\n B Coefficients - ";
-	for (uint16_t i = N-1;i >0 ;--i)
+	for (uint16_t i = N-1;i >=0 ;--i)
 		file << "\n" << A_coeff[i];
 
 	file.close();
